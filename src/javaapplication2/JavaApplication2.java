@@ -19,8 +19,12 @@ public class JavaApplication2 {
      */
     public static void main(String[] args) {
         Game game= new Game();
-
-//         game.startGame();
-    }
+        for(int i=0;i<100;i++){
+            if(game.map[i][1].conquaredBy.player_name!="")
+                System.out.println(1);
+            else System.out.println(0);
+        }
+//        game.startGame();
     
+    } 
 }

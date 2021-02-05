@@ -1,6 +1,6 @@
 package javaapplication2;
 
-public abstract class Soldier {
+public class Soldier {
     int power;
     int price;
 }
